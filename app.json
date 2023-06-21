@@ -29,7 +29,7 @@
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org or @USERS_RO_BOT",
-            "required": true
+            "required": false
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
