@@ -21,11 +21,11 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-            "required": true
+            "required": false
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org or @USERS_RO_BOT",
-            "required": true
+            "required": false
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org or @USERS_RO_BOT",
@@ -37,7 +37,7 @@
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "required": true
+            "required": false
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
@@ -45,11 +45,11 @@
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "required": true       
+            "required": false     
         },
         "INDEX_REQ_CHANNEL": {
             "description": "Same Logs channel id with -100xxxxxxx",
-            "required": true       
+            "required": false      
         },       
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
@@ -69,7 +69,7 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI.",
-            "required": true
+            "required": false
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
